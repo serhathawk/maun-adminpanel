@@ -1,8 +1,10 @@
 MAUN SOSYAL ADMIN PANEL - README
 
-================================================================================
+===========================================================================
+
+
 PROJE TANIMI
-================================================================================
+===========================================================================
 
 MAUN Sosyal Admin Panel, MAUN Sosyal platformunun yönetim arayuzudur. Bu proje,
 universite ogrencilerinin sosyal medya deneyimini guvenli ve etkili bir sekilde
@@ -16,9 +18,10 @@ Proje kapsaminda asagidaki temel ozellikler uygulanmistir:
 - Sistem analizi (istatistikler, aktivite takibi)
 - Guvenli giris sistemi (OTP tabanli kimlik dogrulama)
 
-================================================================================
+===========================================================================
+
 KULLANILAN TEKNOLOJILER
-================================================================================
+===========================================================================
 
 Frontend Teknolojileri:
 - React 18.3.1 - Kullanici arayuzu kutuphanesi
@@ -37,9 +40,10 @@ Gelistirme Araclari:
 - npm - Paket yoneticisi
 - VS Code - Kod editoru
 
-================================================================================
+===========================================================================
+
 SISTEM MIMARISI
-================================================================================
+===========================================================================
 
 Proje, modern web uygulamalari icin standart olan client-server mimarisini
 kullanmaktadir:
@@ -59,9 +63,10 @@ Backend (Server Side):
 Veri Akisi:
 Kullanici -> React UI -> API Client -> REST API -> Database -> Response -> UI
 
-================================================================================
+===========================================================================
+
 KIMLIK DOGRULAMA SISTEMI (OTP + TOKEN)
-================================================================================
+===========================================================================
 
 Sistem, iki adimli guvenli giris sureci kullanmaktadir:
 
@@ -82,9 +87,10 @@ Guvenlik Ozellikleri:
 - Token'lar sifrelenmis ve imza ile korunmus
 - Yetkisiz erisimlerde otomatik oturum sonlandirma
 
-================================================================================
+===========================================================================
+
 ADMIN PANEL OZELLIKLERI
-================================================================================
+===========================================================================
 
 Dashboard (Panel Ozeti):
 - Toplam ogrenci, gonderi, begeni ve yorum sayilari
@@ -107,9 +113,10 @@ Ayarlar:
 - Admin profil bilgilerini guncelleme
 - Biyografi, dogum tarihi gibi bilgiler
 
-================================================================================
+===========================================================================
+
 API – FRONTEND ENTEGRASYONU
-================================================================================
+===========================================================================
 
 Tum backend iletisimi merkezi bir katman uzerinden yonetilir:
 
@@ -130,9 +137,10 @@ Ana Endpoint'ler:
 Veri Akisi:
 React Component -> apiClient.method() -> fetch() -> Backend API -> Response -> UI Update
 
-================================================================================
+===========================================================================
+
 KURULUM VE CALISTIRMA
-================================================================================
+===========================================================================
 
 On Kosullar:
 - Node.js 18 veya ustu surumu
@@ -142,7 +150,7 @@ On Kosullar:
 Kurulum Adimlari:
 
 1. Projeyi klonlayin:
-   git clone [https://github.com/serhathawk/maun-adminpanel.git]
+   git clone [https://github.com/serhathawk/maun-adminpanel]
    cd AdminPanel-MAUN-Sosyal/project
 
 2. Bagimliliklari yukleyin:
@@ -159,9 +167,10 @@ Build Islemleri:
 - Production build: npm run build
 - Build kontrolu: npm run build (dist/ klasoru olusur)
 
-================================================================================
+===========================================================================
+
 GUVENLIK MIMARISI
-================================================================================
+===========================================================================
 
 Cok katmanli guvenlik yaklasimi uygulanmistir:
 
@@ -188,9 +197,10 @@ Cok katmanli guvenlik yaklasimi uygulanmistir:
    - Secure coding practices
    - Dependency security audits
 
-================================================================================
+===========================================================================
+
 GELISTIRME NOTLARI
-================================================================================
+===========================================================================
 
 Kod Organizasyonu:
 - src/pages/: Sayfa component'leri
@@ -224,9 +234,10 @@ Versiyon Kontrolu:
 - Commit message standards
 - Code review process
 
-================================================================================
+===========================================================================
+
 GELISTIRENLER
-================================================================================
+===========================================================================
 
 Serhat ŞAHİN - [https://github.com/serhathawk]
 Mehdi KARAÇOR - [https://github.com/karacormehdi]
