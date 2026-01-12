@@ -150,7 +150,7 @@ On Kosullar:
 Kurulum Adimlari:
 
 1. Projeyi klonlayin:
-   git clone [https://github.com/serhathawk/maun-adminpanel]
+   git clone [https://github.com/serhathawk/maun-adminpanel.git]
    cd AdminPanel-MAUN-Sosyal/project
 
 2. Bagimliliklari yukleyin:
